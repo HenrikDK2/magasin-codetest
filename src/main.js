@@ -44,6 +44,8 @@ class CustomAccordion extends HTMLElement {
       this.content.setAttribute("aria-hidden", isExpanded);
     }
 
+    this.removeAttribute("is-expanded");
+
     window.addEventListener("resize", () => {
       if (this.content.getAttribute("aria-hidden") === "false") {
         this.content.style.maxHeight = this.content.scrollHeight + "px";
