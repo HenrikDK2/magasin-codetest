@@ -1,3 +1,3 @@
 # Magasin-codetest
 
-Hosted: https://magasin-codetest.netlify.app/
+The project is hosted on: https://magasin-codetest.netlify.app/
